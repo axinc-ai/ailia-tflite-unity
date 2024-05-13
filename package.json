@@ -1,0 +1,11 @@
+{
+  "name": "ai.ailia.ailia_tflite",
+  "version": "1.1.13",
+  "displayName": "ailia TFLite Runtime",
+  "description": "ailia TFLite Runtime for Unity Engine",
+  "author": {
+    "name": "ax Inc.",
+    "email": "contact@axinc.jp",
+    "url": "https://axinc.jp/"
+  }
+}
