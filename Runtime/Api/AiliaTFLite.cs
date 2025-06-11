@@ -359,6 +359,17 @@ public class AiliaTFLite
     */
     public const Int32  AILIA_TFLITE_PROFILE_MODE_TRACE                  =(   2);
 
+  /**
+    * \~japanese
+    * @def AILIA_TFLITE_PROFILE_MODE_MEMORY
+    * @brief メモリプロファイル有効
+    *
+    * \~english
+    * @def AILIA_TFLITE_PROFILE_MODE_MEMORY
+    * @brief Memory profile enabled
+    */
+    public const Int32  AILIA_TFLITE_PROFILE_MODE_MEMORY                  =(   4);
+
     /****************************************************************
     * フラグ
     **/
@@ -376,14 +387,14 @@ public class AiliaTFLite
 
     /**
     * \~japanese
-    * @def AILIA_TFLITE_FLAG_DYNAMIC_QUANT
-    * @brief 動的量子化モード（FCのFloat推論向け）
+    * @def AILIA_TFLITE_FLAG_INPUT_OUTPUT_TENSORS_USE_SCRATCH
+    * @brief 入出力テンソルをスクラッチバッファに確保する
     *
     * \~english
-    * @def AILIA_TFLITE_FLAG_DYNAMIC_QUANT
-    * @brief Dynamic Quantization mode (for FC with Flaot Model)
+    * @def AILIA_TFLITE_FLAG_INPUT_OUTPUT_TENSORS_USE_SCRATCH
+    * @brief Allocate input and output tensors in the scratch buffer.
     */
-    public const UInt32  AILIA_TFLITE_FLAG_DYNAMIC_QUANT        =(   1);
+    public const UInt32  AILIA_TFLITE_FLAG_INPUT_AND_OUTPUT_TENSORS_USE_SCRATCH                =(   1);
 
     /****************************************************************
     * CPU拡張命令情報
