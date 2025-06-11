@@ -1,6 +1,6 @@
 {
   "name": "ai.ailia.ailia_tflite",
-  "version": "1.1.13",
+  "version": "1.2.2",
   "displayName": "ailia TFLite Runtime",
   "description": "ailia TFLite Runtime for Unity Engine",
   "author": {
