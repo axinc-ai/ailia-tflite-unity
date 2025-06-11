@@ -374,6 +374,17 @@ public class AiliaTFLite
     */
     public const UInt32  AILIA_TFLITE_FLAG_NONE                =(   0);
 
+    /**
+    * \~japanese
+    * @def AILIA_TFLITE_FLAG_DYNAMIC_QUANT
+    * @brief 動的量子化モード（FCのFloat推論向け）
+    *
+    * \~english
+    * @def AILIA_TFLITE_FLAG_DYNAMIC_QUANT
+    * @brief Dynamic Quantization mode (for FC with Flaot Model)
+    */
+    public const UInt32  AILIA_TFLITE_FLAG_DYNAMIC_QUANT        =(   1);
+
     /****************************************************************
     * CPU拡張命令情報
     **/
